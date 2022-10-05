@@ -1,5 +1,5 @@
 $(document).ready(function() {
-    var DOMAIN="http://localhost/inventory/public-html";
+    var DOMAIN="https://inventory-s-m.herokuapp.com/public-html";
 AddNewRow();
     $("#Add").click(function(){
         AddNewRow();
