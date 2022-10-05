@@ -48,7 +48,7 @@ $(document).ready(function() {
             url: DOMAIN+"/includes/process.php",
             data:{getCategory:1},
             success:function(response) {
-                var role="<option value=\"0\">Role</option>";
+                var role="<option value=\"0\">Choose</option>";
                 $("#parent-cat").html(role+response);
                 $("#new-cat").html(role+response);
             }
