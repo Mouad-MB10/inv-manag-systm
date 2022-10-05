@@ -1,5 +1,5 @@
 $(document).ready(function() {
-    var DOMAIN="https://inventory-s-m.herokuapp.com/public-html";
+    var DOMAIN="http://localhost/inventory/public-html";
     var status=false;
     $("#register_form").on("submit",function() {
        
