@@ -168,6 +168,8 @@ return "Order Completed";
 
 }
 }
-// $db= new Manage();
-// print_r($db->getsingleRecord("categories","cid",1));
+// $db = new Manage();
+// $data = $db->getsingleRecord("categories", "cid", 5);
+// echo "<select>" . "<option value=" . $data["parent_cat"] . ">" . $data["category_name"] . "</option>" . "</select>";
+
 ?>

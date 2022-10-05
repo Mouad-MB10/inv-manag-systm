@@ -3,7 +3,7 @@
     <div class="modal-dialog">
         <div class="modal-content">
             <div class="modal-header">
-                <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+                <h5 class="modal-title" id="exampleModalLabel">Edit Category</h5>
                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close" role="alert">
 
                 </button>
@@ -18,9 +18,8 @@
                     </div><br>
                     <div class="form-group">
                         <label>Parent Category</label>
-                        <select name="parent-cat" id="parent-cat" class="form-control" name="parent-cat" id="parent-cat"
-                            value="">
-                        </select>
+                        <select name="parent-cat" class="form-control" id="parent-cat" required></select>
+
                         <small id="parent-error" class="form-text text-muted"></small>
                     </div><br>
 

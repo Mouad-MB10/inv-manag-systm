@@ -50,7 +50,7 @@ $(document).ready(function() {
             success:function(response) {
                 var role="<option value=\"0\">Role</option>";
                 $("#parent-cat").html(role+response);
-               
+                $("#new-cat").html(role+response);
             }
         })
     }; 
@@ -255,22 +255,22 @@ $(document).ready(function() {
         })
     };
     //get Category Records
-    fetch_category();
-    function fetch_category() {
-        $.ajax({
-            method: "POST",
-            url: DOMAIN+"/includes/process.php",
-            data:{getCategory:1},
-            success:function(response) {
+    // fetch_category();
+    // function fetch_category() {
+    //     $.ajax({
+    //         method: "POST",
+    //         url: DOMAIN+"/includes/process.php",
+    //         data:{getCategory:1},
+    //         success:function(response) {
                 
-                var choose="<option value=\"0\">choose</option>";
+    //             var choose="<option value=\"0\">choose</option>";
                 
                
-                $("#new-cat").html(choose+response);
+    //             $("#new-cat").html(choose+response);
                
-            }
-        })
-    };  
+    //         }
+    //     })
+    // };  
             //delete Product
     $("body").delegate("#deleteProduct","click",function () {
         var pid=$(this).attr("pid");
